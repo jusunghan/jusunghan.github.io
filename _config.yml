@@ -75,7 +75,7 @@ ga_domain:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: 
+sidebar-about-description: "A software engineer aiming for a commit a day"
 sidebar-avatar:      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
