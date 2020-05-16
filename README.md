@@ -1,7 +1,7 @@
-Hux Blog
+Jusung's Blog
 ========
 
-### [View alive Hux Blog &rarr;](https://huangxuan.me)  
+### [View alive Jusung's Blog &rarr;](https://jusunghan.github.io)  
 
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
