@@ -98,9 +98,9 @@ page-mathjax: false
 
 
 # Friends
-# friends: [
-#     {
-#         title: "Daewoong Ko",
-#         href: "http://kod4284.github.io
-#     }
-# ]
+friends: [
+    {
+        title: "Daewoong Ko",
+        href: "http://kod4284.github.io
+    }
+]
