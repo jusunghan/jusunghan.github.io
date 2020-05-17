@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Naver Web Crawling"
-subtitle:   " \"Simple image crawling using css selectors\""
+subtitle:   " \"Simple image crawling using URL queries\""
 date:       2020-05-17 12:00:00
 author:     "Jusung"
 header-img: "img/post-bg-2015.jpg"
@@ -51,7 +51,7 @@ print('다운로드 완료')
 
 This code generates directories and images from Naver search result.
 
-The limitations are that Naver URI queries are used to crawl images, so it cannot be used if Naver changes their URI query format in the future.
+The limitations are that Naver URL queries are used to crawl images, so it cannot be used if Naver changes their URL query format in the future.
 
 References:
 [Jocoding](https://www.youtube.com/watch?v=ZTJjW7XuHIY&list=PLU9-uwewPMe2-vtJAgWB6SNhHcTjJDgEO),
