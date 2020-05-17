@@ -6,7 +6,6 @@ date:       2020-05-17 12:00:00
 author:     "Jusung"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
-comments: true
 tags:
     - Web
     - Python
