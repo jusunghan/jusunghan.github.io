@@ -2,11 +2,13 @@
 layout:     post
 title:      "Naver Web Crawling"
 subtitle:   " \"Simple image crawling using css selectors\""
-date:       2020-05-16 12:00:00
+date:       2020-05-17 12:00:00
 author:     "Jusung"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
-tags: "Web", "Python"
+tags:
+    - Web
+    - Python
 ---
 
 > This post is about simple web crawling using beautiful soup.
@@ -47,9 +49,9 @@ for k, v in people.items():
 print('다운로드 완료')
 ```
 
-This code generates directories and images from naver search result.
+This code generates directories and images from Naver search result.
 
-The limitations are that CSS selectors are used to crawl images, so it cannot be used if naver changes their CSS selectors in the future.
+The limitations are that Naver URI queries are used to crawl images, so it cannot be used if Naver changes their URI query format in the future.
 
 References:
 [Jocoding](https://www.youtube.com/watch?v=ZTJjW7XuHIY&list=PLU9-uwewPMe2-vtJAgWB6SNhHcTjJDgEO),
