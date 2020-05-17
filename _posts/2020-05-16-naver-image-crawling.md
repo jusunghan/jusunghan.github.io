@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Hello 2020"
-subtitle:   " \"Hello World, Hello Blog\""
+title:      "Naver Web Crawling"
+subtitle:   " \"Simple image crawling using css selectors\""
 date:       2020-05-16 12:00:00
 author:     "Jusung"
 header-img: "img/post-bg-2015.jpg"
@@ -9,11 +9,11 @@ catalog: true
 tags:
 ---
 
-This post is about simple web crawling using beautiful soup.
+> This post is about simple web crawling using beautiful soup.
 
-I used this to crawl images of Korean celebrities to train a machine learning model to categorize which animals' image they match.
+> I used this to crawl images of Korean celebrities to train a machine learning model to categorize which animals' image they match.
 
-The code is below
+> The code script is shown below
 
 ```coq
 from urllib.request import urlopen
@@ -47,12 +47,10 @@ for k, v in people.items():
 print('다운로드 완료')
 ```
 
-This code generates directories and images from naver search result.
+> This code generates directories and images from naver search result.
 
-The limitations are that CSS selectors are used to crawl images, so it cannot be used if naver changes their CSS selectors in the future.
+> The limitations are that CSS selectors are used to crawl images, so it cannot be used if naver changes their CSS selectors in the future.
 
 References:
-Jocoding:
-https://www.youtube.com/watch?v=ZTJjW7XuHIY&list=PLU9-uwewPMe2-vtJAgWB6SNhHcTjJDgEO
-
-https://velog.io/@joygoround/%EC%A1%B0%EC%BD%94%EB%94%A9-%EC%99%84%EC%84%B1%ED%98%95-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0-1
+<a href=https://www.youtube.com/watch?v=ZTJjW7XuHIY&list=PLU9-uwewPMe2-vtJAgWB6SNhHcTjJDgEO> Jocoding </>
+<a href=https://velog.io/@joygoround/%EC%A1%B0%EC%BD%94%EB%94%A9-%EC%99%84%EC%84%B1%ED%98%95-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0-1> Joygoround</>
